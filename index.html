@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="text-white bg-[#0D0D0D]">
+    <!-- Topbar -->
+    <div
+      class="flex items-center justify-between h-28 md:h-32 w-full bg-black px-16 sm:px-32"
+    >
+      <div class="flex items-center gap-10 text-lg font-medium">
+        <img class="inline-block lg:hidden" src="images/burger.png" />
+        <div class="hidden lg:flex gap-5">
+          <a class="duration-200 hover:text-sky-600" href="#">Welcome</a>
+          <a class="duration-200 hover:text-sky-600" href="#">Our Menu</a>
+          <a class="duration-200 hover:text-sky-600" href="#">Franchise</a>
+          <a class="duration-200 hover:text-sky-600" href="#">Contact</a>
+        </div>
+      </div>
+      <div><img class="h-20 md:h-24" src="images/logo.png" /></div>
+      <div class="flex items-center gap-7">
+        <img src="images/cart.png" />
+        <img class="hidden lg:inline-block" src="images/search.png" />
+        <button
+          class="hidden lg:inline-block py-5 px-8 bg-white rounded-full text-black font-bold text-lg shadow-sm shadow-white hover:bg-sky-600 hover:text-white"
+        >
+          Become a Member
+        </button>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div
+      class="h-[55vh] md:h-[85vh] bg-cover bg-center brightness-75 px-16 sm:px-32 pt-10 md:pt-16 lg:pt-20"
+      style="background-image: url('images/header.png')"
+    >
+      <div class="w-full md:w-2/3 lg:w-1/2">
+        <h1 class="text-xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3">
+          Welcome! We Made Delicious Food for You
+        </h1>
+        <p class="text-xs md:text-xl mb-5">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <button class="py-2 md:py-3 px-5 md:px-8 bg-white rounded-full text-black font-bold text-base md:text-lg shadow-sm shadow-white hover:bg-sky-600 hover:text-white">Order Online</button>
+      </div>
+    </div>
+
+    <!-- Maker -->
+    <div class="px-16 sm:px-32 my-20 md:my-36">
+      <div class="w-full md:w-2/3 mx-auto text-center mb-5 md:mb-16">
+        <h2 class="text-2xl md:text-5xl mb-4 md:mb-6">Why We are Best Food Maker</h2>
+        <p class="text-sm md:text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-20">
+        <p class="text-center md:text-left">It is a long established fact that a reader will be distracted layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The normal distribution of letters, as opposed to using 'Content  Many desktop publishing packages and web page editors search for 'lorem ipsum' will uncover many web sites still in  humour and the like. Read More</p>
+        <iframe class="rounded-xl w-full h-72" src="https://www.youtube.com/embed/4Tex-lLG0do?si=VaIZQMaAiK7ieyXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </body>
+</html>
